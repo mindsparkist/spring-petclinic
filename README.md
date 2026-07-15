@@ -1,3 +1,43 @@
+That is a great choice. The Spring PetClinic is the gold standard reference application for Spring Boot and is consistently updated to support modern environments.
+
+Here is how you can build and run it locally:
+
+**1. Clone the repository**
+
+```bash
+git clone https://github.com/mindsparkist/spring-petclinic.git
+cd spring-petclinic
+
+```
+
+**2. Build the project**
+Use the included Maven wrapper to build the executable `.jar` file:
+
+```bash
+./mvnw clean package
+
+```
+
+**3. Run the application**
+You have two options to start it up:
+
+*Option A: Using the Maven wrapper (Great for development)*
+
+```bash
+./mvnw spring-boot:run
+
+```
+
+*Option B: Running the compiled JAR directly*
+
+```bash
+java -jar target/spring-petclinic-*.jar
+
+```
+
+Once the terminal shows that the application has started, you can access the PetClinic UI by opening your web browser and navigating to:
+**http://localhost:8080**
+
 # Spring PetClinic Sample Application [![Build Status](https://github.com/spring-projects/spring-petclinic/actions/workflows/maven-build.yml/badge.svg)](https://github.com/spring-projects/spring-petclinic/actions/workflows/maven-build.yml)[![Build Status](https://github.com/spring-projects/spring-petclinic/actions/workflows/gradle-build.yml/badge.svg)](https://github.com/spring-projects/spring-petclinic/actions/workflows/gradle-build.yml)
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/spring-projects/spring-petclinic) [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=7517918)
